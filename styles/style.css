@@ -120,9 +120,9 @@ body {
 
 }
 
-.dcover__description-text { 
+.cover__description-text { 
   font-weight: normal;
-  word-spacing: 12px;
+  word-spacing: 20px;
 }
 
 .description-button {
