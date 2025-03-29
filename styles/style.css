@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 body {
-  background-color: lightgray;
+  background-color: gray;
 }
 
 .header {
@@ -15,7 +15,7 @@ body {
 
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 31px;
 }
@@ -121,8 +121,10 @@ body {
 }
 
 .cover__description-text { 
+  
   font-weight: normal;
-  word-spacing: 20px ; 
+  word-spacing: 20px; 
+
 }
 
 .description-button {
@@ -255,9 +257,11 @@ body {
 }
 
 .about__text-first {
+
   padding-bottom: 24px;
   font-weight: normal; 
   font-size: 20px;
+
 }
 
 .footer {
