@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px 50px ;
+  padding: 92px 50px 96px 50px;
   background-color: white;
 }
 
@@ -40,9 +40,8 @@
   position: relative;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  
+  background-size: cover;
 }
 
 .overlay {
@@ -234,16 +233,13 @@
 }
 
 .about__text {
+  padding-bottom: 24px;
   font-weight: normal;
   font-size: 20px;
-  padding-bottom: 24px;
-  
 }
 
 .about__text-main {
   padding-top: 64px;
-  
-
 }
 
 .footer {
@@ -257,8 +253,8 @@
   justify-self: start;
   max-width: 240px;
   font-size: 18px;
-  line-height: 24px;
   font-style: normal;
+  line-height: 24px;
 }
 
 .footer__menu-list {
