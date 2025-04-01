@@ -1,16 +1,10 @@
 /* место для вашего кода */
 
-body {
-  background-color: gray;
-}
-
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding: 92px 50px 96px 50px ;
   background-color: white;
 }
 
@@ -33,6 +27,7 @@ body {
 .header__address {
   justify-self: end;
   max-width: 240px;
+  font-style: normal;
 }
 
 .header__logo-image {
@@ -43,10 +38,11 @@ body {
 
 .cover {
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 757px; */
+  background-position: center;
+  
 }
 
 .overlay {
@@ -114,10 +110,11 @@ body {
 
 .description-button {
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid white;
   font-weight: 500;
   background: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -168,15 +165,15 @@ body {
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots__card-title {
@@ -219,7 +216,7 @@ body {
   align-items: center;
   width: 240px;
   height: 240px;
-  border-radius: 999px;
+  border-radius: 50%;
   background-color: black;
 }
 
@@ -236,23 +233,23 @@ body {
   text-transform: uppercase;
 }
 
-.about__text-first {
-  padding-top: 64px;
-  padding-bottom: 24px;
+.about__text {
   font-weight: normal;
   font-size: 20px;
+  padding-bottom: 24px;
+  
 }
 
-.about__text-second {
-  font-weight: normal;
-  font-size: 20px;
+.about__text-main {
+  padding-top: 64px;
+  
+
 }
+
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: start;
-  min-height: 180px;
-  padding: 0 50px;
+  padding: 0 50px 82px 50px;
   background-color: white;
 }
 
@@ -261,6 +258,7 @@ body {
   max-width: 240px;
   font-size: 18px;
   line-height: 24px;
+  font-style: normal;
 }
 
 .footer__menu-list {
